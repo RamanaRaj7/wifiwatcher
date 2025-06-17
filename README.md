@@ -153,7 +153,7 @@ launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.wifiwatcher.plist  # Stop
 wifiwatcher --help       # Show help message
 wifiwatcher --version    # Show version information
 wifiwatcher --setup      # Create configuration file
-wifiwatcher --monitor    #can be used to test out manualy and debug
+wifiwatcher --monitor    # Can be used to test out manualy and debug
 ```
 
 ## Environment Variables
@@ -165,7 +165,6 @@ Scripts receive these environment variables which can be used inside ~/.wifiwatc
 - `WIFI_RSSI` - Signal strength in dBm
 - `WIFI_PREVIOUS_SSID` - Previous SSID (when available)
 - `WIFI_TIMESTAMP` - Current timestamp (UTC)
-- `WIFI_USER` - Current user's login name
 - `WIFI_TRIGGER_REASON` - Describes why the script was executed
 
 ## Special Behavior Notes
