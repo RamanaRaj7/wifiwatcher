@@ -1,11 +1,12 @@
-class Wifiwatcher < Formula
+class wifiwatcher < Formula
   desc "Monitor Wi-Fi network changes and execute scripts"
   homepage "https://github.com/ramanaraj7/wifiwatcher"
   url "https://github.com/ramanaraj7/wifiwatcher/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "REPLACE_WITH_ACTUAL_SHA256_AFTER_FIRST_RELEASE"
+  sha256 "c3d2001b264e4b58f6a22ac3dd939f1f2b1673aff046f00ebd6a60bb77034d68"
   license "MIT"
   
   depends_on :macos
+  depends_on xcode: :build
 
   def install
     system "clang", "-framework", "Foundation", "-framework", "CoreWLAN", "-fobjc-arc", "wifiwatcher.m", "-o", "wifiwatcher"
