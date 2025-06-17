@@ -2,7 +2,7 @@ class Wifiwatcher < Formula
   desc "Monitor Wi-Fi network changes and execute scripts"
   homepage "https://github.com/ramanaraj7/wifiwatcher"
   url "https://github.com/ramanaraj7/wifiwatcher/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "c3d2001b264e4b58f6a22ac3dd939f1f2b1673aff046f00ebd6a60bb77034d68"
+  sha256 "dae9dcc0c276078818132ca76b5745e09751ba87f12a53bd68163516f067d477"
   license "MIT"
   
   depends_on :macos
