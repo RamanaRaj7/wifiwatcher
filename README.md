@@ -1,4 +1,4 @@
-# WiFi Watcher
+# wifiwatcher
 
 A macOS utility that monitors Wi-Fi network changes and executes user-defined scripts when connecting to or disconnecting from networks.
 
