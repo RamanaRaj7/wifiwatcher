@@ -1,4 +1,4 @@
-class wifiwatcher < Formula
+class Wifiwatcher < Formula
   desc "Monitor Wi-Fi network changes and execute scripts"
   homepage "https://github.com/ramanaraj7/wifiwatcher"
   url "https://github.com/ramanaraj7/wifiwatcher/archive/refs/tags/v1.0.0.tar.gz"
