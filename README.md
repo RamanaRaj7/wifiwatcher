@@ -1,5 +1,9 @@
 # wifiwatcher
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/RamanaRaj7/wifiwatcher)
+
+if you find it intresting a ⭐️ on GitHub would mean a lot!
+
 A macOS utility that monitors Wi-Fi network changes and executes user-defined scripts when connecting to or disconnecting from networks.
 
 ## Features
