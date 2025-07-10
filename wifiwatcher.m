@@ -3,7 +3,7 @@
 #import <signal.h>
 
 // Version information
-#define WIFIWATCHER_VERSION "1.0.1"
+#define WIFIWATCHER_VERSION "1.0.2"
 
 // Color definitions - matching the LoginWatcher theme
 #define ANSI_RESET      "\033[0m"
@@ -50,7 +50,7 @@ void printVersion() {
 }
 
 void printUsage() {
-    printHeader(@"                WIFIWATCHER v1.0.1");
+    printHeader(@"                WIFIWATCHER v1.0.2");
     
     printf("%s◇ DESCRIPTION%s\n", ANSI_ACCENT, ANSI_RESET);
     printf("  wifiwatcher detects Wi-Fi network changes and executes commands\n");
